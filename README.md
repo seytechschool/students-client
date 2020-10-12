@@ -1,3 +1,3 @@
 # students-client
 - UI: https://studentss-client.herokuapp.com
-- client for this project:  https://github.com/seytechschool/nodejs/tree/master/students-project
+- backend is located here:  https://github.com/seytechschool/nodejs/tree/master/students-project
