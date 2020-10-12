@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  flex: 1;
+  object-fit: fill;
+}
+
+.main {
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+  padding: 0 5px;
+  height: 40px;
+  position: relative;
+}
+input {
+  padding: 5px;
+  margin-right: 30px;
+  height: 100%;
+  border: none;
+  border-right: 1px solid black;
+  overflow: hidden;
+  flex: 6;
+}
+.grade {
+  margin-left: 30px;
+  flex: 1;
+}
+.update-button {
+  margin-left: 30px;
+  background: green;
+  border: 1px thin lightgray;
+  border-radius: 5px;
+  border-width: 1px;
+  color: #fff;
+  font-size: 10px;
+  flex: 1;
+}
+.delete-button {
+  margin-left: 30px;
+  background: red;
+  border: 1px thin lightgray;
+  border-radius: 5px;
+  border-width: 1px;
+  color: #fff;
+  font-size: 10px;
+  flex: 1;
+}
+
+#modal {
+  display: none;
+  width: 260px;
+  background: #3c8c40;
+  padding: 10px;
+  position: absolute;
+  z-index: 9;
+  left: 8px;
+  top: 30px;
+  border-radius: 2px;
+}
+
+#fname,
+#lname,
+#email,
+#bio,
+#imageurl,
+#grade,
+#adduserbtn {
+  border: 1px solid lightgray;
+  margin: 2px 0;
+  border-radius: 2px;
+  width: 100%;
+}
+#adduserbtn {
+  color: #fff;
+  background: transparent;
+}
+
+.btn-display-topright {
+  background: #fff;
+  padding: 0 5px;
+  color: #3c8c40;
+  float: right;
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
